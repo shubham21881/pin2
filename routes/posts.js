@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/pinterest")
+mongoose.connect("mongodb+srv://krishanmouryash:xblqgxFz9VjUFFtR@pin.qfkns.mongodb.net/pinterest")
 
 // Define the schema for the posts
 const postSchema = new mongoose.Schema({
